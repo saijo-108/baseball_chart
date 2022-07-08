@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "プロ野球選手　早見表",
+    "version": "1.0",
+    "icon": "icon.png",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
