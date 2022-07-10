@@ -5,7 +5,84 @@
         <link rel="stylesheet" href="popup.css">
     </head>
     <body>
-        <h1>これはプロ野球選手　早見表です</h1>
+        <div class="center">
+            <h1>プロ野球選手　早見表</h1>
+        </div>
+        <div class="flex">
+            <diV class="select_team">
+                <div class="team">
+                    <span>球団</span>
+                </div>
+                <select name="team" class="center">
+                    <option value="softbank">ソフトバンク</option>
+                    <option value="rakuten">楽天</option>
+                    <option value="seibu">西武</option>
+                    <option value="orix">オリックス</option>
+                    <option value="lotte">ロッテ</option>
+                    <option value="hamu">日本ハム</option>
+                    <option value="kyojin">巨人</option>
+                    <option value="hansin">阪神</option>
+                    <option value="yakult">ヤクルト</option>
+                    <option value="hirosima">広島</option>
+                    <option value="yokohama">横浜</option>
+                    <option value="tyunichi">中日</option>
+                </select>
+            </diV>
+            <diV class="select_player">
+                <div class="player">
+                    <span>選手名</span>
+                </div>
+                <select name="team" class="center">
+                    <option value="softbank">ソフトバンク</option>
+                    <option value="rakuten">楽天</option>
+                    <option value="seibu">西武</option>
+                    <option value="orix">オリックス</option>
+                    <option value="lotte">ロッテ</option>
+                    <option value="hamu">日本ハム</option>
+                    <option value="kyojin">巨人</option>
+                    <option value="hansin">阪神</option>
+                    <option value="yakult">ヤクルト</option>
+                    <option value="hirosima">広島</option>
+                    <option value="yokohama">横浜</option>
+                    <option value="tyunichi">中日</option>
+                </select>
+            </diV>
+        </div>
+
+        <div class="update">
+            <span>2022年7月10日更新</span>
+        </div>
+        <div class="record flex center">
+            <div class="ave_wrap">
+                <span><打率></span>
+                <div class="average bold">.３３２</div>
+            </div>
+            <div class="homerun_wrap">
+                <span><打率></span>
+                <div class="homerun bold">15本塁打</div>
+            </div>
+            <div class="rbi_wrap">
+                <span><打率></span>
+                <div class="rbi bold">24打点</div>
+            </div>
+        </div>
+
+        <div class="all_record">
+            <a href="https://baseball.yahoo.co.jp/npb/player/1000175/top" target="_blank">成績一覧へ</a>
+        </div>
+
+        <div class="news">
+            <div class="news_text">
+                <span>ニュース</span>
+            </div>
+            <a href="https://baseball.yahoo.co.jp/npb/player/1000175/top" target="_blank">ニュースA</a>
+            <a href="https://baseball.yahoo.co.jp/npb/player/1000175/top" target="_blank">ニュースB</a>
+            <a href="https://baseball.yahoo.co.jp/npb/player/1000175/top" target="_blank">ニュースC</a>
+        </div>
+
+        <div class="all_news">
+            <a href="https://sports.yahoo.co.jp/list/news/npb?genre=npb&keyword=%E7%89%A7%E5%8E%9F%E5%A4%A7%E6%88%90" target="_blank">ニュース一覧へ</a>
+        </div>
     </body>
     <script src="popup.js"></script>
 </html>
